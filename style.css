@@ -43,10 +43,10 @@ html{
     display: flex;
     flex-direction: column;
     /* background-color: rgba(0, 0, 0.5); */
-    height: 52.5rem;
+    height: 2.5rem;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(201, 35, 35);
 }
 #home::before{
     content: "";
@@ -74,19 +74,26 @@ opacity: 0.6;
     text-align: center;
     margin: 40px 0px;
 }
+
+
 .btn{
-    padding: 10px 35px;
-    background-color: transparent;
-    border: 1px solid white;
-   outline: none;
-    transition:.6s ease; 
+    background-color: rgb(0, 126, 251); 
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: 2px solid blueviolet;
+    cursor: pointer; /* turns the mouse to a pointer when hovering over the button */
+    box-shadow: 3px 3px 3px rgb(255, 0, 0);
 }
-.btn:hover{
-cursor: pointer;
-background-color: white;
-color: black;
-box-shadow: 0 0 5px white,0 0 10px white,0 0 15px white;
+.btn:hover{ /*meaning when you take your mouse over it */
+    background-color: aquamarine; 
+    color: black;
 }
+.btn:active{ /*meaning when you're clicking over it */
+    background-color: rgb(212, 201, 37);
+    color: black;
+}
+
 /* ABOUT SECTION */
 #about{
     display: flex;

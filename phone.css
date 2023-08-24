@@ -1,8 +1,12 @@
 /* home */
 #home{
-    height: 820px;
+    height: 120px;
 
-}.headings{
+}
+
+.headings{
+    background-color: aquamarine;
+    color: black;
     font-size: 1.7rem;
 }
 /* about */
